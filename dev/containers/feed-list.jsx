@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import FeedEntry from './feed-entry';
 
 class FeedList extends Component {
 	renderList(){
 		return this.props.poems.map((poem) => {
 			return (
-				<div key={poem.title} className="list-group-item">{poem.title}</div>
+				<FeedEntry key={poem.title} className="list-group-item" poem={poem}/>
 			)}
 		)
 	}
