@@ -15,6 +15,9 @@ var config = {
   		include: DEV,
   		loader: "babel-loader",
   	}]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
 };
  

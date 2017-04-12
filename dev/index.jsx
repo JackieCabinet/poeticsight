@@ -1,17 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import _ from 'lodash';
+import App from './components/app.jsx';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import reducers from './reducers/index.jsx';
  
-var HelloWorld = React.createClass({
-  render: function() {
-    return (
-      <p>Hello, {this.props.greetTarget}!</p>
-    );
-  }
-});
- 
+const createStoreWithMiddleware = applyMiddleware()(createStore);
+
 ReactDOM.render(
-  <div>
-    <HelloWorld greetTarget="World"/>
-  </div>,
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider>,
   document.querySelector("#container")
 );  
