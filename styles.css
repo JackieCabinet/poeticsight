@@ -1,0 +1,28 @@
+
+.feedpoem{
+	margin-top: -100px;
+	margin-left: 200px;
+}
+.stylish-thumb{
+	width: 150px;
+	height: 100px;
+	background-size: cover;
+/*	border-radius: 10px;*/
+}
+.feed-entry{
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	dispaly: inline-block;
+}
+.new-poem{
+	/*margin-top: 120px;
+	margin-left: 60%;*/
+	margin-right: 5%;
+	display: inline-block;
+	position: absolute;
+}
+.new-image{
+	width: 600px;
+	height: 400px;
+	background-size: cover;
+}

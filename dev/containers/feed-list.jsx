@@ -7,14 +7,14 @@ class FeedList extends Component {
 	renderList(){
 		return this.props.poems.map((poem) => {
 			return (
-				<FeedEntry key={poem.title} className="list-group-item" poem={poem}/>
+				<FeedEntry key={poem.title} className="list-group-item col-md-4" poem={poem}/>
 			)}
 		)
 	}
 	
 	render() {
 		return (
-			<ul className="list-group col-sm-4"> 
+			<ul > 
 				{this.renderList()}
 			</ul>
 		)
