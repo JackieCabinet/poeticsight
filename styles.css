@@ -1,28 +1,52 @@
-
-.feedpoem{
-	margin-top: -100px;
-	margin-left: 200px;
+body{
+	background-color: rgba(70,230,250,.4);
 }
-.stylish-thumb{
-	width: 150px;
-	height: 100px;
-	background-size: cover;
-/*	border-radius: 10px;*/
+.header{
+	padding: 10px;
+	font-size: 24pt;
+	background-color: rgba(255,64,64, .8);
+	margin-left: -20px;
+	margin-right: -20px;
+}
+.feed{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 10px;
+	max-height: 100vh;
+	background-color: rgba(255,255,255,.5);
+	overflow-y: scroll;
+	background-color: rgba(64,230,250,.8);
+	padding-bottom: 10px;
+}
+.feed-poem{
+	font-size: 8pt;
+}
+
+.styish-thumb-cont{
+
 }
 .feed-entry{
 	box-sizing: border-box;
-	margin-bottom: 30px;
-	dispaly: inline-block;
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: -50px;
+}
+
+.new-image-cont{
+}
+
+.new-image {
+    max-width: 100%;
+    margin-top: 10px;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 .new-poem{
-	/*margin-top: 120px;
-	margin-left: 60%;*/
-	margin-right: 5%;
-	display: inline-block;
-	position: absolute;
+	float: left;
 }
-.new-image{
-	width: 600px;
-	height: 400px;
-	background-size: cover;
+.new-form{
+	margin-top: 20px;
+}
+.btn-new-form{
+	margin-top: 10px;
 }

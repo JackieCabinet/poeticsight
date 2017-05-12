@@ -5,21 +5,18 @@ import { connect } from 'react-redux';
 export default class PoemForm extends Component {
 	render() {
 		return (
-			<div>
-				<form className="form-horizontal">
+			<div className="col-md-12 new-form" >
+				<form >
 				  <div className="form-group">
-				    <label for="line1">Line 1:</label>
-				    <input type="text" className="form-control" id="line1"></input>
+				    <input type="text" className="form-control" id="line1" placeholder="5 syllables.."></input>
 				  </div>
 				  <div className="form-group">
-				    <label for="line2">Line 2:</label>
-				    <input type="text" className="form-control" id="line2"></input>
+				    <input type="text" className="form-control" id="line2" placeholder="7 syllables.."></input>
 				  </div>
 				  <div clasNames="form-group">
-				    <label for="line3">Line 3:</label>
-				    <input type="text" className="form-control" id="line3"></input>
+				    <input type="text" className="form-control" id="line3" placeholder="5 syllables.."></input>
 				  </div>
-				  <button type="submit" className="btn btn-default">Submit</button>
+				  <button type="submit" className="btn btn-default btn-new-form">Submit</button>
 				</form>
 			</div>
 		)

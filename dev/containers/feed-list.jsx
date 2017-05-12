@@ -14,7 +14,7 @@ class FeedList extends Component {
 	
 	render() {
 		return (
-			<ul > 
+			<ul className="feed"> 
 				{this.renderList()}
 			</ul>
 		)

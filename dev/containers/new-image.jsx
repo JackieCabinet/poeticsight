@@ -6,7 +6,12 @@ export default class NewImage extends Component {
 		let imgUrl = "https://c1.staticflickr.com/1/230/471801087_e9adb2afd4_b.jpg"
 		let divStyle = {backgroundImage: `url(${imgUrl})`};
 		return (
-			<div className="new-image" style={divStyle}></div>
+			<div className="new-image-cont">
+				<img className="new-image" src="https://c1.staticflickr.com/1/230/471801087_e9adb2afd4_b.jpg" />
+			</div>
 		)
 	}
 }
+
+
+// style={divStyle}

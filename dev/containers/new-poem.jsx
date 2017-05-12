@@ -6,7 +6,7 @@ import PoemForm from './poem-form';
 export default class NewPoem extends Component {
 	render() {
 		return (
-			<div className="new-poem col-md-8">
+			<div >
 				<NewImage />
 				<PoemForm />
 			</div>
