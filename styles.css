@@ -2,17 +2,30 @@ body{
 	background-color: rgba(70,230,250,.4);
 }
 .header{
-	padding: 10px;
-	font-size: 24pt;
+	padding: 15px;
+	font-size: 13pt;
 	background-color: rgba(255,64,64, .8);
 	margin-left: -20px;
 	margin-right: -20px;
+}
+.eye-img{
+	margin-right:auto;
+	margin-left:auto;
+	width: 11.5%;
+	opacity: .5;
+}
+.sub-head{
+	font-size: 30pt;
+	color: black;
+	float: left;
+	padding-top: 5px;
+	margin-left: 40px;
 }
 .feed{
 	margin-top: 10px;
 	margin-right: 20px;
 	margin-left: 10px;
-	max-height: 100vh;
+	max-height: 90vh;
 	background-color: rgba(255,255,255,.5);
 	overflow-y: scroll;
 	background-color: rgba(64,230,250,.8);
@@ -22,7 +35,7 @@ body{
 	font-size: 8pt;
 }
 
-.styish-thumb-cont{
+.stylish-thumb-cont{
 
 }
 .feed-entry{
@@ -50,3 +63,10 @@ body{
 .btn-new-form{
 	margin-top: 10px;
 }
+.outer-cont{
+	max-height: 100vh;
+	width: auto;
+}
+/*.new-cont{
+	height: 100vh;
+}*/

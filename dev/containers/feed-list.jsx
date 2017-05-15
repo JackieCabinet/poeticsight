@@ -22,6 +22,7 @@ class FeedList extends Component {
 }
 
 function mapStateToProps(state) {
+	console.log(state, "state in map")
 	return{
 		poems: state.poems
 	}

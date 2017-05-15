@@ -16,9 +16,9 @@ export default class FeedEntry extends Component {
           <img className="thumb col-md-12" src={this.props.poem.thumbnail}></img>
         </div>
         <div className="feed-poem col-md-5">
-        	<div>{this.props.poem.content.line1}</div>
-          <div>{this.props.poem.content.line2}</div>
-          <div>{this.props.poem.content.line3}</div>
+        	<div>{this.props.poem.line1}</div>
+          <div>{this.props.poem.line2}</div>
+          <div>{this.props.poem.line3}</div>
            - <span>{this.props.poem.username}</span>
         </div>
       </div>

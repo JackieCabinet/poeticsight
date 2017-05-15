@@ -3,6 +3,8 @@ const app = express();
 const bp = require('body-parser');
 const path = require('path');
 const morgan = require('morgan');
+const db = require('./db.js');
+const poemCtrl = require('./controllers/poems.js')
 
 app.use( morgan() );
 app.use( bp.json() );
@@ -15,3 +17,4 @@ app.listen(app.get('port'), function(){
 })
 
 //comment
+app.post('/api/poems', poemCtrl.post)
